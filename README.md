@@ -5,7 +5,7 @@
 ## 1. 本人配置一键安装
 
 ```bash
-curl https://raw.githubusercontent.com/WwhdsOne/LearningNotes/master/tools/install_zsh.sh | bash
+curl https://raw.githubusercontent.com/WwhdsOne/terminal-tools/main/install_zsh.sh | bash
 ```
 
 > **执行前请确保机器已安装 `curl`**，若未安装，请先安装 `curl`。
