@@ -31,7 +31,7 @@ else
             echo "Homebrew not found, installing Homebrew..."
             $sudo_prefix /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         fi
-        $sudo_prefix brew install zsh
+        $sudo_prefix brew install zsh gpg git
     elif [[ "$OS" == "Linux" ]]; then
         echo "Ubuntu/Debian detected. Installing Zsh using apt..."
         $sudo_prefix apt update
