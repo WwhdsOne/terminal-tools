@@ -8,6 +8,8 @@
 curl https://raw.githubusercontent.com/WwhdsOne/terminal-tools/main/install_zsh.sh | bash
 ```
 
+> 目前仅支持**Ubuntu/Debian/Macos**
+>
 > **执行前请确保机器已安装 `curl`**，若未安装，请先安装 `curl`。
 
 ## 2. 安装 Zsh

@@ -95,8 +95,7 @@ fi
 # 5. Install Nerd Font (Hack Nerd Font)
 echo "8. Installing Hack Nerd Font..."
 if [[ "$OS" == "Darwin" ]]; then
-    brew tap homebrew/cask-fonts
-    brew install --cask font-hack-nerd-font
+    brew install font-hack-nerd-font
 elif [[ "$OS" == "Linux" ]]; then
     echo "Please manually install a Nerd Font on Linux."
 fi
