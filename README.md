@@ -7,7 +7,7 @@
 1. 执行以下一键安装脚本，自动安装和配置所有工具：
 
    ```bash
-   curl https://raw.githubusercontent.com/WwhdsOne/terminal-tools/main/install_zsh.sh | bash
+   curl https://raw.githubusercontent.com/WwhdsOne/terminal-tools/main/install_zsh.sh | bash && source ~/.zshrc && exec zsh
    ```
 
 2. 配置 Zsh 为默认 shell 并安装 Oh My Zsh、插件、Starship 等工具。
@@ -17,8 +17,6 @@
 4. 使配置生效，启动终端，享受定制化的命令行体验。
 
 5. 目前仅支持`Macos/Ubuntu/Debian`
-
-## 本项目仍在持续集成新工具
 
 ## 1. 安装 Zsh
 
@@ -86,21 +84,7 @@
 - 增强文件查看、PDF渲染、图片信息查看等能力。
 - 提供更多命令行工具，提升开发效率。
 
-## 8. 安装额外工具
-
-**安装并配置以下增强工具：**
-
-- **`tldr`**: 简化的 `man` 页，快速查看命令用法。
-- **`fzf`**: 强大的模糊搜索工具，帮助你快速查找文件、命令等。
-- **`zoxide`**: 快速目录跳转工具，让你更高效地在项目目录之间切换。
-
-### 功能：
-
-- **`tldr`**: 用简洁的方式展示命令行命令的使用。
-- **`fzf`**: 提供模糊匹配搜索，提升查找文件的效率。
-- **`zoxide`**: 通过更智能的方式进行目录跳转，支持自动加速目录跳转。
-
-## 9. 创建 `yazi.toml` 配置文件
+## 8. 创建 `yazi.toml` 配置文件
 
 为 **yazi** 创建并配置 `yazi.toml` 文件，设置窗口布局、文件排序方式、隐藏文件显示等功能。
 
@@ -108,10 +92,9 @@
 - 配置文件管理，优化文件预览和排序。
 - 提供更好的用户体验，特别是在处理文件时。
 
-## 10. 使配置生效
+## 9. 使配置生效
 
 在终端中执行以下命令，使所有配置生效：
 ```bash
 source ~/.zshrc
 ````
-
